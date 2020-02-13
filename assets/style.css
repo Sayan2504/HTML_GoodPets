@@ -6,7 +6,7 @@ body{
   html, body {
     width: 100%;
     height: auto;
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
     overflow-x: hidden; 
 }
@@ -117,7 +117,6 @@ body{
   }
   
   #banner_pic{
-    
     padding-top: 10px;
     padding-left: 0px;
     padding-bottom: 5px;
@@ -458,16 +457,16 @@ footer{
     margin: 0px;
     font-weight: bold;
   }
-ul{
-  width: 100%;
-}
+  ul{
+    width: 100%;
+  }
   
-ul li{
+  ul li{
     margin-left: 10px;
     margin-right: 10px;
-}
+  }
 
-#navbar_logo {
+  #navbar_logo {
     font-size: 50px;
     height: 60px;
     margin-bottom: 20px;
@@ -488,8 +487,8 @@ ul li{
 
   #banner_pic{
     display: flex;
-    justify-content: left;
-    padding-left: 10px;
+    justify-content: space-around;
+    padding-left: 50px;
     height: 280px;
 
   }
@@ -772,10 +771,16 @@ footer{
 
   /*banner*/
 
+  .main-content{
+    width: 2000px;
+  }
+
   .banner-section{
     margin-left: -35px;
     margin-right: -35px;
-}
+    margin: 0 auto;
+  } 
+
 
   #banner_pic{
     padding-left: 30px;
