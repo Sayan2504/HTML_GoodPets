@@ -152,16 +152,18 @@ body{
 
   
   .product-image{
-    padding: 25px 15px 0px 15px;
-    display: flex;
-    justify-content: center;
-  
+    padding: 25px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
   
   .product{
     border-radius: 50%;
-    height: 130px;
-    width: 130px;
+    height: 140px;
+    width: 140px;
+    margin-left: 45px;
   }
   
   .product-header{
@@ -342,6 +344,10 @@ footer{
   margin-bottom: 4px;
 }
 
+.product{
+  margin-left:70px;
+}
+
 #pet_content{
   padding-left: 5px;
   padding-right: 5px;
@@ -376,6 +382,7 @@ footer{
   .product{
     height: 170px;
     width: 170px;
+    margin-left: 80px;
   }
 
   #pet_heading{
@@ -511,6 +518,7 @@ ul li{
   border-radius: 50%;
   height: 120px;
   width: 120px;
+  margin-left: 45px;
 }
 
 .product-header{
@@ -533,9 +541,10 @@ ul li{
  /*product 1*/
 .product-1-section{
   background-color: #F57910;
-  border: 6px solid transparent;
+  border-bottom: 6px solid transparent;
   border-top: 20px solid transparent;
   border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
 }
 
 /*product 2*/
@@ -550,9 +559,10 @@ ul li{
 /*product 3*/
 .product-3-section{
   background-color: #709503;
-  border: 6px solid transparent;
+  border-bottom: 6px solid transparent;
   border-top: 20px solid transparent;
   border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
 }
 
 /*section before footer*/
@@ -563,6 +573,7 @@ ul li{
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 0px;
+  padding-left: 0px;
   height: 280px;
 }
 
@@ -584,6 +595,7 @@ ul li{
   text-align: left;
   margin-bottom: 15px;
   padding-right:0px;
+  margin-left: -5px;
 }
 
 #pet_content{
@@ -596,7 +608,7 @@ ul li{
   display: flex;
   justify-content: left;
   text-align: left;
-  padding-left: 10px;
+  padding-left: 12px;
   padding-right: 5px;
 }
 
@@ -616,7 +628,7 @@ ul li{
   padding-top: 0px;
   margin-top: 0px;
   margin-bottom: 10px;
-  margin-left: -265px;
+  margin-left: -260px;
 }
 
 /*picture above footer*/
@@ -925,6 +937,7 @@ footer{
   .product{
     height: 220px;
     width: 220px;
+    margin-left: 55px;
   }
 
   .product-header{
