@@ -11,7 +11,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel='stylesheet' href='assets/style.css'>
 
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
+
+
 <body>
     <div class="container">
         <div class="row margin-row" id="nav_row">
@@ -45,9 +51,9 @@
 
     <div class="container-fluid">
         <section class="row banner-section margin-row">
-            <section class="col" id="banner_pic_section">
+            <picture class="col" id="banner_pic_section">
                 <img src="assets/banner-pic.jpg" alt="banner pic" id="banner_pic">
-            </section>    
+            </picture>    
             <section class="col" id="banner_quote">
                 <span id="first_large_text">Safety</span><br>
                 <span class="small-text"> for</span>
@@ -62,9 +68,9 @@
         <section class="row margin-row product-section">
             <section class="col-12 col-sm-4 product-1-section">
                
-                    <div class="product-image">
+                    <picture class="product-image">
                       <img src="assets/product-1.jpg" alt="product 1" class="product">
-                    </div>
+                    </picture>
                     <h2 class="product-header"><strong>Dogs Food</strong></h2>
                     <p class="product-quote"><strong> Lorem ipsum dolor sit amet</strong></p>
                 
@@ -80,9 +86,9 @@
             </section>
             <section class="col-12 col-sm-4 product-3-section">
                 
-                    <div class="product-image">
+                    <picture class="product-image">
                       <img src="assets/product-3.jpg" alt="product 2" class="product">
-                    </div>
+                    </picture>
                     <h2 class="product-header"><strong>Fishs Food</strong></h2>
                     <p class="product-quote"><strong> Lorem ipsum dolor sit amet</strong></p>
                   
@@ -92,24 +98,24 @@
 
         <section class="row margin-row" id="section_before_footer">
           <section class="col" id="text_before_footer">
-            <h2 id="pet_heading">
-              Pet Adoption. Be Part <br> of Something Beautiful!
-            </h2>
-            <p id="pet_content">
-              Lorem Ipsum dolor sit amet, consectetur adipiscing
-              elit. Mauris eu neque eget quam pulvinar volutpat
-              mollis tempor. Integer nec dictum velit. In consectetur
-              eget eros nec condimentum. Fusce blandit libero Id
-              mattis pulvinar. Ut fermen tum lectus hendrerit lacus
-              ornare euismod
-            </p>
-            <div id="button_container">
-              <a href="#" id="read_more_button">Read More</a>
-            </div>
+              <h2 id="pet_heading">
+                Pet Adoption. Be Part <br> of Something Beautiful!
+              </h2>
+              <article id="pet_content">
+                Lorem Ipsum dolor sit amet, consectetur adipiscing
+                elit. Mauris eu neque eget quam pulvinar volutpat
+                mollis tempor. Integer nec dictum velit. In consectetur
+                eget eros nec condimentum. Fusce blandit libero Id
+                mattis pulvinar. Ut fermen tum lectus hendrerit lacus
+                ornare euismod
+              </article>
+              <div id="button_container">
+                <a href="#" id="read_more_button">Read More</a>
+              </div>
           </section>
-          <div class="col" id="above_footer_container">
+          <picture class="col" id="above_footer_container">
             <img src="assets/adopt-pic.jpg" alt="adopt-pic" id="image_above_footer">
-          </div>
+          </picture>
         </section>
     </div>
 
@@ -122,15 +128,15 @@
               </picture>
             </div>
 
-            <div class="row" id="address">
-              <div class="col-12 col-sm-6" id="address_part_one">
+            <address class="row" id="address">
+              <section class="col-12 col-sm-6" id="address_part_one">
                 San Francisco, CA 94102, US 1234 Some St
-              </div>
-              <div class="col-12 col-sm-6" id="address_part_two">
+              </section>
+              <section class="col-12 col-sm-6" id="address_part_two">
                 <span>Phone: 1.800.123.4567</span>
                 <span>Fax: 1.800.123.4566</span>
-              </div>
-            </div>
+              </section>
+            </address>
 
             <div class="row">
               <div class="col" id="copyright">
