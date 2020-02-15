@@ -32,8 +32,8 @@ body{
   
   #navbar_logo {
     font-size: 20px;
-    height: 60px;
-    padding-left: 0px;
+    height: 55px;
+    padding-left: 15px;
     margin: 15px 20px;
   }
   
@@ -54,7 +54,7 @@ body{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(223,98,27)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     font-size: 25px;
     color: #DF621B;
-    margin-right: 20px;
+    margin-right: 35px;
   }
   
   
@@ -433,24 +433,24 @@ footer{
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-    justify-content: center;
-    flex-basis: 730px;
+    justify-content: space-evenly;
+    flex-basis: 750px;
     background-color: #DF621B;
     margin-bottom: 0px;
     margin-right: 10px;
     padding-right: 0px;
-    border-radius: 5px;
+    border-radius: 4px;
   }
 
   #navbar_supported_content{
-    top: 35px;
-    left: 95px;
-    width: 650px;
+    top: 30px;
+    left: 135px;
+    width: 630px;
   }
 
   .nav-menu{
-    font-size: 15px;
-    padding-bottom: 0px;
+    font-size: 13px;
+    padding-bottom: 5px;
     padding-left: 7px;
     padding-right: 7px;
   }
@@ -473,8 +473,8 @@ footer{
     margin-bottom: 20px;
     margin-top: 20px;
     padding-left: 0px;
-    margin-left: 0px;
-    left: 20px;
+    margin-left: 25px;
+    left: 30px;
   }
 
 
@@ -500,14 +500,15 @@ footer{
     padding-left: 60px;
     padding-right: 10px;
     margin-right: 0px;
+    margin-top: 20px;
   }
   
   #first_large_text{
-    font-size: 50px;
+    font-size: 45px;
   }
   
   .large-text{
-    font-size: 50px;
+    font-size: 45px;
     padding-left: 14px;
   }
 
@@ -582,8 +583,9 @@ footer{
   justify-content: left;
   text-align: left;
   margin-bottom: 15px;
-  padding-right:0px;
-  margin-left: -5px;
+  padding-right: 0px;
+  margin-left: 0px;
+  padding-inline-start: 0px;
 }
 
 #pet_content{
@@ -712,18 +714,18 @@ footer{
 @media (min-width: 992px){
  
   #navbar_supported_content{
-    top: 45px;
-    left: 85px;
+    top: 40px;
+    left: 135px;
     width: 1300px;
   }
 
   #navbar_logo {
-    font-size: 60px;
-    height: 90px;
+    font-size: 50px;
+    height: 80px;
     margin-bottom: 20px;
     margin-top: 30px;
     padding-left: 0px;
-    margin-left: 0px;
+    margin-left: 25px;
     
   }
 
@@ -734,7 +736,7 @@ footer{
 
   
   .nav-menu{
-    font-size: 20px;
+    font-size: 17px;
     padding-bottom: 10px;
     padding-top: 20px;
     padding-left: 12px;
@@ -742,8 +744,8 @@ footer{
   }
 
   .navbar-nav{
-    flex-basis: 840px;
-    justify-content: center;
+    flex-basis: 810px;
+    justify-content: space-evenly;
     margin-right: 0px;
     margin-left: 50px;
   }
@@ -880,20 +882,25 @@ footer{
   }
 
   #navbar_logo{
-    margin-left: -35px;
+    margin-left: 0px;
   }
+
   .navbar-nav{
     flex-basis: 1050px;
     justify-content: space-evenly;
   }
 
   #navbar_supported_content{
-    left: 75px;
+    left: 120px;
+    top: 30px;
   }
 
   .nav-menu{
-    font-size: 25px;
+    font-size: 22px;
+    padding-bottom: 8px;
+    padding-top: 18px;
   }
+
   #banner_pic_section{
     display: flex;
     justify-content: flex-end;
