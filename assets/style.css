@@ -95,8 +95,6 @@ body{
   ul li a{
     text-decoration: none;
     color: #000000;
-  
-  
   }
   
   ul li:hover{
@@ -105,11 +103,9 @@ body{
   }
   
   ul li a:hover{
-    background-color: #DF621B ;
     text-decoration: none;
     color: #f5f5f5;
   }
-
   /*banner*/
 
 .banner-section{
@@ -452,7 +448,7 @@ footer{
   }
 
   .nav-menu{
-    font-size: 13px;
+    font-size: 12px;
     padding-bottom: 5px;
     padding-left: 7px;
     padding-right: 7px;
@@ -890,16 +886,17 @@ footer{
 
   #navbar_logo{
     margin-left: 0px;
+    height: 85px;
   }
 
   .navbar-nav{
-    flex-basis: 1050px;
+    flex-basis: 1080px;
     justify-content: space-evenly;
   }
 
   #navbar_supported_content{
-    left: 120px;
-    top: 30px;
+    left: 110px;
+    top: 40px;
   }
 
   .nav-menu{
@@ -915,7 +912,7 @@ footer{
   
   #banner_pic{
     height: 480px;
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   #banner_quote{
@@ -954,12 +951,12 @@ footer{
   .product{
     height: 230px;
     width: 230px;
-    margin-left: 55px;
+    margin-left: 58px;
   }
 
   .product-section{
-    margin-left: -50px;
-    margin-right: -50px;
+    margin-left: -90px;
+    margin-right: -95px;
     margin-top: 10px;
   }
 
@@ -975,9 +972,9 @@ footer{
 
 #section_before_footer{
   height: 460px;
-  padding-left: 20px;
-  margin-left: -65px;
-  margin-right: -65px;
+  padding-left: 0px;
+  margin-left: -80px;
+  margin-right: -80px;
 }
 
 #text_before_footer{
@@ -999,6 +996,7 @@ footer{
   font-size: 18px;
   padding-left: 0px;
   padding-right: 0px;
+  font-size-adjust: 0.5;
   padding-top: 25px;
 }
 
