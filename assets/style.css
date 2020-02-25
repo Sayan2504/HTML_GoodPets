@@ -113,6 +113,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     height: auto;
+    justify-content: center;
   }
   
   #banner_pic{
@@ -127,21 +128,22 @@ body{
     line-height: 1.2;
     padding-top: 35px;
     padding-right: 0px;
+    margin-left: -10px;
   }
   
   #first_large_text{
-    font-size: 24px;
+    font-size: 22px;
     text-indent: 3px;
   }
   
   .large-text{
-    font-size: 24px;
+    font-size: 22px;
     text-indent: 3px;
-    padding-left: 8px;
+    padding-left: 6px;
   }
   
   .small-text{
-    font-size: 21px;
+    font-size: 20px;
     color: #3d3d3d;
   }
 
@@ -220,7 +222,6 @@ body{
   line-height: 1.6;
   padding-top: 50px;
   font-family: 'Arial Narrow', Arial, 'sans-serif';
-  
 }
 
 #pet_content{
@@ -583,7 +584,7 @@ footer{
   text-align: left;
   margin-bottom: 15px;
   padding-right: 0px;
-  font-size-adjust:0.52;
+  font-size-adjust:0.525;
   margin-left: -30px;
   padding-left: 0px;
   font-family: sans-serif;
