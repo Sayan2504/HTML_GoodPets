@@ -157,13 +157,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    text-align: center;
   }
   
   .product{
     border-radius: 50%;
     height: 140px;
     width: 140px;
-    margin-left: 45px;
   }
   
   .product-header{
@@ -348,7 +348,6 @@ footer{
 .product{
   height: 160px;
   width: 160px;
-  margin-left:60px;
 }
 
 #pet_content{
@@ -385,7 +384,6 @@ footer{
   .product{
     height: 170px;
     width: 170px;
-    margin-left: 80px;
   }
 
   #pet_heading{
@@ -519,7 +517,6 @@ footer{
 .product{
   height: 120px;
   width: 120px;
-  margin-left: 40px;
 }
 
 .product-header{
@@ -952,7 +949,6 @@ footer{
   .product{
     height: 230px;
     width: 230px;
-    margin-left: 58px;
   }
 
   .product-section{
